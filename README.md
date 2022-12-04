@@ -24,7 +24,7 @@ obser_dict={
 # 實體化 監聽者:priceObser(監聽條件)
 price_obser = priceObser(obser_dict)
 
-# 將 監聽者 加入 notifier
+# 將 監聽者 加入 notifier -> 此處可建立並加入更多的 監聽者 
 notifier.addObserver(price_obser)
 
 # 將當前價格 帶入 price.setter -> priceObser會針對當前價格做出反應動作
