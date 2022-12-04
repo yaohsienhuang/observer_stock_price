@@ -28,7 +28,7 @@ price_obser = priceObser(obser_dict)
 notifier.addObserver(price_obser)
 
 # 將當前價格 帶入 price.setter -> priceObser會針對當前價格做出反應動作
-notifier.price={'TSMC':650}
+notifier.price={'TSMC':600}
 ```
 ## Outputs:
 ```
